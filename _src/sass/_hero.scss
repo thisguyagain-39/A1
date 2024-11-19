@@ -1,0 +1,17 @@
+@use "_var.scss" as var;
+
+.hero {
+
+    h1{
+
+        color: var.$gold;
+    
+        font-family: var.$Rubik, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        font-size: 2rem;
+
+        height: 60vh;
+
+    }
+
+}
