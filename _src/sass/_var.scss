@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Rationale&family=Rubik+80s+Fade&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Rationale&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
+$gray-d-trans: #17182497;
 $gray-d: #2b2d42ff;
 $gray-l: #8d99aeff;
 $white: #edf2f4ff;
@@ -7,7 +8,11 @@ $gold: #fdce66ff;
 $orange: #fbb660ff;
 $red-l: #ef233cff;
 $red-d: #d80032ff;
+$red-d-trans: #66001833;
 
-$Rubik: "Rubik 80s Fade";
-$Titillum: "Titillum Web";
+$Rubik: "Gugi"; // this is no longer a rubik font buuuut im too lazy to change the variable name
+
+// context the original font had contrast issues :( 
+
+$Titillum: "Titillium Web";
 $Rationale: "Rationale";

@@ -1,0 +1,32 @@
+@use "_var.scss" as var;
+@use "sass:color" as clr;
+
+p.q {
+
+    color: clr.adjust($color: var.$red-l, $lightness: 20%) !important;
+
+    font-size: 1.5;
+}
+
+p.a {
+
+    color: clr.adjust($color: var.$gold, $lightness: 20%) !important;
+}
+
+.aqa {
+
+    padding: 5%;
+}
+
+.aqALL {
+
+    padding: 0 5% 0 5%;
+
+    hr {
+
+        margin: 5% 15% 5% 15%;
+
+        border-color:clr.adjust(var.$orange);
+    }
+    
+}

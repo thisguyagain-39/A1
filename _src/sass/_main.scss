@@ -1,11 +1,93 @@
 @use "_var.scss" as var;
+@use "sass:color" as clr;
 
 
 body {
 
+    margin:0;
+
     background-color: var.$gray-d;
+
+}
+
+div.content {
+
+    padding: 5% 10% 5% 10%;
+
+    background-color: clr.adjust($color: var.$gray-l, $lightness: -55%);
+
+    h1, h2, h3, h4, h5, h6 {
+
+        font-family: var.$Rationale, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        color: var.$red-l;
+
+        margin: 0
+    }
+
+    h1 {
+
+        font-size: 2rem;
+    }
+
+    p, li, ul, ol {
+
+        font-family: var.$Titillum, monospace;
+
+        color: clr.adjust($color: var.$gray-l, $lightness: 20%);
+
+        font-size: 1rem;
+    }
+
+    a {
+
+        color: var.$gold;
+
+    }
+
+    hr {
+
+        margin: 5%;
+
+        border-color: var.$orange;
+
+        border-width: 1px;
+    }
+
+    img {
+
+        width:auto;
+
+        height: 30vw;
+
+        padding: 0 5% 0% 5%;
+
+        border-radius: 100px / 50px; //needs to be specified like this or the border radius goes eliptical .... i dont understand it but! universe bless stackoverflow and people smarter than me 
+
+    }
+
+    
 
 
 }
+
+div.wetotallyarentevil {
+
+    h2{
+
+        margin-top: 10%;
+    }
+}
+
+.footer {
+
+    margin-top: 10%;
+
+    p {
+        font-size: x-small!important; //  i probably shouldn't be using !important this much
+    }
+}
+
+
 
 

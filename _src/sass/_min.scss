@@ -1,0 +1,44 @@
+.min {
+
+    // display: flex;
+
+    padding: 2vh;
+
+    .textdiv {
+
+        display: flex;
+
+        width:fit-content;
+
+        flex-direction: column;
+
+    }
+
+    .textdiv.l {
+
+        text-align: left;
+
+        justify-content: left;
+
+    }
+
+    .textdiv.r {
+
+        text-align: right;
+
+        justify-content: right;
+
+    }
+
+}
+
+.min.r {
+
+    flex-direction: row-reverse;
+}
+
+.min.img {
+
+
+    display: flex;
+}

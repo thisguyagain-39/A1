@@ -1,17 +1,39 @@
 @use "_var.scss" as var;
 
+
 .hero {
 
-    h1{
+    background-image: linear-gradient(var.$gray-d-trans, var.$red-d-trans), url(../img/herobg.jpg);
 
-        color: var.$gold;
+    background-size: cover;
+
+    .textdiv {
+
+        display: flex;
     
-        font-family: var.$Rubik, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-        font-size: 2rem;
-
+        padding:5%;
+    
+        align-items: center;
+    
         height: 60vh;
-
+    
+        h1 {
+        
+            color: var.$gold;
+            
+            font-family: var.$Rubik, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+            font-weight: 500; /* always specify weight 300-500 with rubik because otherwise it breaks and looks Bad */
+    
+            font-size: 3rem;
+    
+            mix-blend-mode: color-dodge;
+    
+        }
+    
     }
+    
+    
+
 
 }
