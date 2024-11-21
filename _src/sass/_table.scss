@@ -1,0 +1,23 @@
+@use "_var.scss" as var;
+@use "sass:color" as clr;
+
+table, th, td {
+
+    border: 1px var.$red-l solid ;
+
+    border-collapse: collapse;
+
+    padding: 5%;
+
+    background-color: var.$gray-l;
+
+    color:var.$gray-d;
+
+    font-family: var.$Titillum;
+
+}
+
+table {
+
+    margin-top: 5%;
+}

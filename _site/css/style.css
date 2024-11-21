@@ -63,6 +63,19 @@ div.flipper div {
   position: absolute;
 }
 
+table, th, td {
+  border: 1px #ef233c solid;
+  border-collapse: collapse;
+  padding: 5%;
+  background-color: #8d99ae;
+  color: #2b2d42;
+  font-family: "Titillium Web";
+}
+
+table {
+  margin-top: 5%;
+}
+
 p.q {
   color: rgb(245.9152542373, 130.0847457627, 144.2796610169) !important;
   font-size: 1.5;
